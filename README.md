@@ -100,6 +100,7 @@ The logistic regression model did not include any hyperparameter search of the p
 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
+The class imbalance should be circumvented e.g. by stratified sampling while performing the train test split or by upsampling the underrepresented class.
 For hyperparameter Tuning also the data pre-processing of continuous variables should be investigated. E.g. log-normalization vs. Min-max scaling ...
 Also missing value imputation might be help to include more datapoints if there are any missing values. 
 A neural network model might yield some improvement as well ==> since it is a completely different architecture which was not yet tested
