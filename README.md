@@ -62,6 +62,9 @@ Due to the randomess it is efficiently exploring the whole of the search space m
 the point in time once the Stopping Criterion is reached. By definition random search makes random steps across the search space as a whole and in contrast to 
 Grid search which explores each parameter space region sequentially it can visit different parameter space regions more rapidly and will stop once some subregion satisfies the stopping criterion, while Grid-search is still searching in some local subspace far away from this random subspace.
 **What are the benefits of the early stopping policy you chose?**
+If the hyperparameter search already converged not more parameter combination which is much greater than the currently best configuration can be found.
+If there is a sequence of runs which are much worse than the optimal hyperparameter for multiple iterations, then the hyperparameter search is aborted. 
+This avoids waisting resources since it is unlikely that a better parameter combination can be found.
 
 
 ## AutoML
