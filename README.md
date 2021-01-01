@@ -69,6 +69,30 @@ Grid search which explores each parameter space region sequentially it can visit
 
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
+The maximum performance with the hyperdrive was found for many combinations of the hyperparameters.
+The maximum accuracy was found out to be 0.907283 e.g. for the combination of C = 0.70305 and max_iter = 50
+
+{'Regularization Strength:': 0.07304859840588435, 'Max iterations:': 50, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 0.8783856468955435, 'Max iterations:': 30, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 0.07815523037726442, 'Max iterations:': 200, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 0.19954366367073706, 'Max iterations:': 1000, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 1.1174328674115732, 'Max iterations:': 1, 'Accuracy': 0.887556904400607}
+{'Regularization Strength:': 0.059588646057997595, 'Max iterations:': 20, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 0.07931390798235143, 'Max iterations:': 40, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 0.3036966103888117, 'Max iterations:': 200, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 5.53221402077548, 'Max iterations:': 1, 'Accuracy': 0.887556904400607}
+{'Regularization Strength:': 1.956289473217793, 'Max iterations:': 50, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 4.777443416866079, 'Max iterations:': 800, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 0.4297411761960831, 'Max iterations:': 50, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 1.6294169773113119, 'Max iterations:': 80, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 0.937918139316466, 'Max iterations:': 1000, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 1.684823726147026, 'Max iterations:': 5, 'Accuracy': 0.9}
+{'Regularization Strength:': 1.6677973925006933, 'Max iterations:': 50, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 3.393400198522866, 'Max iterations:': 40, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 1.3024178295747109, 'Max iterations:': 40, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 0.07128714555671237, 'Max iterations:': 200, 'Accuracy': 0.9072837632776934}
+{'Regularization Strength:': 0.4686659825980652, 'Max iterations:': 100, 'Accuracy': 0.9072837632776934}
+
 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
