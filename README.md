@@ -7,11 +7,30 @@ This model is then compared to an Azure AutoML run.
 
 ## Summary
 **In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+The Dataset seems to be based on the Kaggle Bank Marketing Dataset
+https://www.kaggle.com/janiobachmann/bank-marketing-dataset
+
+In total it contain data about bank customers (In total 21 columns) including the success of past marketing campaigns.
+
+Numeric columns:
+balance, day, age, duration, campaign, pdays, emp.var.rate, cons.price.idx, euribor3m, nr.employed
+
+Categorical columns:
+month, dayofweek, default, job, loan, marital status, education, housing, contact, previous, poutcome
+
+with a label column: success of marketing campaign (yes/no)
+
+The goal of the Dataset is to predict the success of future marketing campaigns based on the outcomes of past marketing campaings
+by taking into account the features of target customers. 
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+The best performing model was a LightGBM (gradient boosting machine) with MaxAbsScaler preprocessing. 
+It has an overall accuracy of 0.91596 and was found by using AutoML on the cleaned Dataset.
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+
+
 
 **What are the benefits of the parameter sampler you chose?**
 
