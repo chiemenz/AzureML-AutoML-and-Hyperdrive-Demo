@@ -108,3 +108,6 @@ A neural network model might yield some improvement as well ==> since it is a co
 ## Proof of cluster clean up
 **If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
 **Image of cluster marked for deletion**
+
+## License
+The content of this repository is licensed under a [MIT License](https://github.com/chiemenz/AzureML-AutoML-and-Hyperdrive-Demo/blob/master/LICENSE.txt)
